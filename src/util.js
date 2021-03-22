@@ -1,7 +1,8 @@
 'use strict'
 
 // @ts-ignore TODO: switch to cborg
-import { cbor } from 'borc'
+//import { cbor } from 'borc'
+const cbor = require('borc')
 const multicodec = require('multicodec')
 //import multicodec from 'multicodec'
 const multihashing = require('multihashing-async')
