@@ -2,13 +2,13 @@
 
 // @ts-ignore TODO: switch to cborg
 import { cbor } from 'borc'
-//const multicodec = require('multicodec')
-import multicodec from 'multicodec'
-//const multihashing = require('multihashing-async')
-import { multihashing } from 'multihashing-async'
+const multicodec = require('multicodec')
+//import multicodec from 'multicodec'
+const multihashing = require('multihashing-async')
+//import multihashing from 'multihashing-async'
 const { multihash } = multihashing
-//const CID = require('cids')
-import CID from 'cids'
+const CID = require('cids')
+//import CID from 'cids'
 // @ts-ignore
 const isCircular = require('is-circular')
 const uint8ArrayConcat = require('uint8arrays/concat')
